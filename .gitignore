@@ -28,9 +28,6 @@
 /web/bundles/
 /web/uploads/
 
-# PHPUnit
-/phpunit.xml
-
 # Build data
 /build/
 
@@ -52,3 +49,9 @@ workspace.xml
 *.~vsdx
 
 
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
